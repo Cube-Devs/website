@@ -15,7 +15,7 @@ h2{
     letter-spacing: 2px;
 }
 
-.client, .server{
+.client, .server, .source{
 
     padding: 15px;
     margin-left: 35%;
@@ -37,8 +37,9 @@ h2{
     opacity: 1;
     position: relative;
     outline: solid 1px #99a9b0;
+    transition: outline 0.5s linear;
 }
 
-.server{
+.server, .source{
     margin-top: 75px;
 }
