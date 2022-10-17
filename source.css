@@ -1,3 +1,6 @@
+@import url('http://fonts.cdnfonts.com/css/minecraft-4');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
 body{
     background: #2f2f2f;
 }
@@ -5,4 +8,20 @@ body{
 main{
     color: white;
     text-align: center;
+}
+
+h1{
+    font-family: 'Minecraft', sans-serif;
+}
+
+.client, .server{
+
+    padding: 15px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 12%;
+    background: rgb(96 125 139 / 33%);
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+
 }
