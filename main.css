@@ -24,7 +24,19 @@ h2{
     background: rgb(96 125 139 / 33%);
     border-radius: 10px;
     font-family: 'Open Sans', sans-serif;
+    opacity: 0.85;
+    cursor: pointer;
+    outline: solid 0px;
+    transition: outline 0.3s linear;
+    
 
+}
+
+.client:hover,
+.server:hover{
+    opacity: 1;
+    position: relative;
+    outline: solid 1px #99a9b0;
 }
 
 .server{
