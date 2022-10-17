@@ -33,7 +33,8 @@ h2{
 }
 
 .client:hover,
-.server:hover{
+.server:hover,
+.source:hover{
     opacity: 1;
     position: relative;
     outline: solid 1px #99a9b0;
