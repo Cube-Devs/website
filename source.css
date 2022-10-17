@@ -12,6 +12,7 @@ main{
 
 h2{
     font-family: 'Minecraft', sans-serif;
+    letter-spacing: 2px;
 }
 
 .client, .server{
@@ -24,4 +25,8 @@ h2{
     border-radius: 10px;
     font-family: 'Open Sans', sans-serif;
 
+}
+
+.server{
+    margin-top: 75px;
 }
